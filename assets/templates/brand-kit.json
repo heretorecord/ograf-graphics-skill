@@ -1,0 +1,25 @@
+{
+  "id": "com.example.brand",
+  "name": "Example Brand Kit",
+  "version": "1.0.0",
+  "colors": {
+    "accent": "#e10600",
+    "accentText": "#ffffff",
+    "panel": "#0b0c10",
+    "panelText": "#ffffff",
+    "muted": "#9aa0a6"
+  },
+  "fonts": {
+    "primary": "Arial, \"Helvetica Neue\", sans-serif",
+    "weightRegular": 500,
+    "weightBold": 800
+  },
+  "logo": "brand/logo.svg",
+  "safeArea": { "insetX": 96, "insetY": 54 },
+  "motion": {
+    "inMs": 600,
+    "outMs": 450,
+    "ease": "cubic-bezier(.16,1,.3,1)"
+  },
+  "cornerRadius": 6
+}

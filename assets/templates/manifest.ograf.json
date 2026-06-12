@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ograf.ebu.io/v1/specification/json-schemas/graphics/schema.json",
+  "id": "com.example.lower-third",
+  "version": "1.0.0",
+  "name": "Lower Third",
+  "description": "A simple data-driven lower third with name and title.",
+  "author": {
+    "name": "Your Name"
+  },
+  "main": "graphic.mjs",
+  "supportsRealTime": true,
+  "supportsNonRealTime": false,
+  "stepCount": 1,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "Name",
+        "default": "Jane Doe"
+      },
+      "title": {
+        "type": "string",
+        "title": "Title",
+        "default": "Correspondent"
+      }
+    }
+  }
+}
