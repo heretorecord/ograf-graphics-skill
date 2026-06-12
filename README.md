@@ -65,4 +65,5 @@ Note: the schema in the repo's `main` branch is newer than the one served at the
 
 ## License
 
-Your skill code: choose your own license. Bundled EBU schemas: MIT — see `THIRD_PARTY.md`.
+This project is licensed under the MIT License — see `LICENSE`. Bundled EBU schemas are
+also MIT — see `THIRD_PARTY.md`.
